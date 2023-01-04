@@ -1,0 +1,32 @@
+.my-selector {
+  width: 120px;
+  box-sizing: border-box;
+  position: relative;
+  .select-box {
+    border: 1px solid #666;
+    text-align: center;
+    padding: 10px 0;
+
+  }
+
+  .option-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+
+    .option-item {
+      height: 100%;
+      padding: 10px 0;
+      display: inline-block;
+      border: 1px solid #666;
+      border-top: none;
+
+      &:hover{
+        background: #ededed;
+      }
+    }
+  }
+}

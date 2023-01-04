@@ -1,0 +1,15 @@
+.my-button {
+  padding: 0 15px;
+  height: 33px;
+  border-radius: 3px;
+
+  &.btn-default {
+    color: #212529;
+    background-color: #f8f9fa;
+  }
+
+  &.btn-primary{
+    color: #fff;
+    background-color: #007bff;
+  }
+}
